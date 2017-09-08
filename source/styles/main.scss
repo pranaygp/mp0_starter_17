@@ -1,3 +1,16 @@
 body {
-  /* Your CSS here. */
+  background-color: #c0f143;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+.centerMe {
+  display: block;
+  left: 50%;
+  margin: 0;
+  margin-right: -50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
